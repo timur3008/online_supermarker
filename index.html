@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits and Vegetables Online Shop</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://db.onlinewebfonts.com/c/0435447fd9d43de93de189e00f2f3dcf?family=Cerebri+Sans+Pro" rel="stylesheet">
+</head>
+
+<header class="header">
+    <div class="header__blocks">
+        <div class="header__block">
+            <svg class="email_svg" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 2C20 0.9 19.1 0 18 0H2C0.9 0 0 0.9 0 2V14C0 15.1 0.9 16 2 16H18C19.1 16 20 15.1 20 14V2ZM18 2L10 7L2 2H18ZM18 14H2V4L10 9L18 4V14Z" fill="white"/>
+            </svg>
+            <a href="" class="header__block_text">Hello@colorlib.com</a>
+            <div class="line"></div>
+            <a href="" class="header__block_text">Free Shipping for all order of $99</a>
+        </div>
+
+        <div class="header__block">
+            <svg class="facebook_svg" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.3633 0H2.63672C1.18295 0 0 1.18295 0 2.63672V15.3633C0 16.817 1.18295 18 2.63672 18H7.94531V11.6367H5.83594V8.47266H7.94531V6.32812C7.94531 4.58336 9.36461 3.16406 11.1094 3.16406H14.3086V6.32812H11.1094V8.47266H14.3086L13.7812 11.6367H11.1094V18H15.3633C16.817 18 18 16.817 18 15.3633V2.63672C18 1.18295 16.817 0 15.3633 0Z" fill="white"/>
+            </svg>
+            <svg class="whatsapp_svg" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 0C4.0567 0 0 4.0567 0 9C0 10.6315 0.439865 12.2197 1.274 13.6092L0 18L4.39082 16.726C5.78032 17.5601 7.36853 18 9 18C13.9433 18 18 13.9433 18 9C18 4.0567 13.9433 0 9 0ZM14.6269 12.8028L14.2082 13.2215C13.6158 13.8139 12.2533 13.767 11.3779 13.5979C8.46689 13.0357 5.07307 9.74611 4.41856 6.89735C4.09447 5.48616 4.27341 4.25926 4.74142 3.79111L5.16014 3.37239C5.39127 3.1414 5.76672 3.14168 5.99757 3.37239L7.67271 5.04767C7.7845 5.15945 7.84575 5.30763 7.84575 5.46625C7.84575 5.62486 7.7845 5.77318 7.67271 5.88455L7.25414 6.30368C6.79271 6.7662 6.79271 7.51753 7.25414 7.97896L10.0204 10.7088C10.4832 11.1716 11.2321 11.1721 11.6956 10.7088L12.1143 10.2902C12.3305 10.0728 12.7343 10.0721 12.9522 10.2902L14.6269 11.9649C14.8543 12.1914 14.863 12.5666 14.6269 12.8028Z" fill="white"/>
+            </svg>
+            <svg class="in_svg" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.3633 0H2.63672C1.18295 0 0 1.18295 0 2.63672V15.3633C0 16.817 1.18295 18 2.63672 18H15.3633C16.817 18 18 16.817 18 15.3633V2.63672C18 1.18295 16.817 0 15.3633 0ZM6.36328 14.2734H4.25391V6.89062H6.36328V14.2734ZM6.36328 5.83594H4.25391V3.72656H6.36328V5.83594ZM13.7461 14.2734H11.6367V10.0547C11.6367 9.47324 11.1635 9 10.582 9C10.0006 9 9.52734 9.47324 9.52734 10.0547V14.2734H7.41797V6.89062H9.52734V7.28819C10.08 7.11639 10.4389 6.89062 11.1094 6.89062C12.5399 6.89214 13.7461 8.17548 13.7461 9.69214V14.2734Z" fill="white"/>
+            </svg>
+            <svg class="twitter_svg" width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.71526 15.3844C5.93687 15.3844 5.1357 15.3214 4.32971 15.195C2.91014 14.9723 1.47313 14.2298 1.0665 14.0074L0 13.4243L1.15466 13.0446C2.41686 12.6296 3.18466 12.3721 4.13512 11.9689C3.18343 11.508 2.44995 10.679 2.09688 9.60726L1.82826 8.7918L2.04854 8.82545C1.83966 8.61492 1.67473 8.40124 1.54688 8.20692C1.09218 7.51629 0.851441 6.6724 0.902664 5.94923L0.953201 5.23745L1.37933 5.40252C1.19957 5.06304 1.06966 4.7005 0.993302 4.32051C0.807221 3.39381 0.962952 2.4093 1.43193 1.54838L1.80313 0.866954L2.29958 1.46324C3.86966 3.34931 5.85832 4.46813 8.2186 4.79566C8.12219 4.13113 8.19443 3.4898 8.43352 2.91494C8.71188 2.2456 9.20709 1.67802 9.86517 1.27345C10.596 0.824244 11.4824 0.606578 12.3609 0.660548C13.2929 0.717814 14.1391 1.06704 14.8112 1.67115C15.1394 1.58587 15.3813 1.49482 15.7081 1.37178C15.9048 1.29775 16.1278 1.21371 16.4068 1.11758L17.4352 0.76327L16.7646 2.67846C16.8088 2.67475 16.8544 2.6716 16.9021 2.66954L18.0001 2.61982L17.3511 3.50683C17.3139 3.55764 17.3044 3.57206 17.2912 3.59197C17.2389 3.6708 17.1738 3.76885 16.283 4.9584C16.06 5.25627 15.9486 5.64422 15.9693 6.05099C16.0483 7.59677 15.8586 8.99533 15.4053 10.2077C14.9766 11.3546 14.3122 12.3387 13.4308 13.1326C12.3401 14.1148 10.9494 14.7873 9.29704 15.1312C8.48653 15.2998 7.61614 15.3844 6.71526 15.3844Z" fill="white"/>
+            </svg>
+            <div class="language__block">
+                <img src="images/UK_flag.png" alt="" class="language__flag">
+                <p class="language__text">English</p>
+                <svg class="drop_line_svg" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.59 0.589966L6 5.16997L1.41 0.589966L0 1.99997L6 7.99997L12 1.99997L10.59 0.589966Z" fill="white"/>
+                </svg>
+            </div>
+            <div class="line"></div>
+            <div class="user__block">
+                <svg class="user_svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 1.9C9.16 1.9 10.1 2.84 10.1 4C10.1 5.16 9.16 6.1 8 6.1C6.84 6.1 5.9 5.16 5.9 4C5.9 2.84 6.84 1.9 8 1.9ZM8 10.9C10.97 10.9 14.1 12.36 14.1 13V14.1H1.9V13C1.9 12.36 5.03 10.9 8 10.9ZM8 0C5.79 0 4 1.79 4 4C4 6.21 5.79 8 8 8C10.21 8 12 6.21 12 4C12 1.79 10.21 0 8 0ZM8 9C5.33 9 0 10.34 0 13V16H16V13C16 10.34 10.67 9 8 9Z" fill="white"/>
+                </svg>
+                <p class="user__text">Login</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+
+    
+
+    <div class="container">
+        <div class="container__blocks">
+            <img src="images/logo.png" alt="" class="logo__image">
+            <div class="container__block_links">
+                <a href="" class="container__block_link active__link">HOME</a>
+                <a href="" class="container__block_link">SHOP</a>
+                <a href="" class="container__block_link">PAGES</a>
+                <a href="" class="container__block_link">BLOG</a>
+                <a href="" class="container__block_link">CONTACT</a>
+            </div>
+            <div class="container__block_items">
+                <svg class="like_svg" width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.5 0C12.76 0 11.09 0.81 10 2.09C8.91 0.81 7.24 0 5.5 0C2.42 0 0 2.42 0 5.5C0 9.28 3.4 12.36 8.55 17.04L10 18.35L11.45 17.03C16.6 12.36 20 9.28 20 5.5C20 2.42 17.58 0 14.5 0ZM10.1 15.55L10 15.65L9.9 15.55C5.14 11.24 2 8.39 2 5.5C2 3.5 3.5 2 5.5 2C7.04 2 8.54 2.99 9.07 4.36H10.94C11.46 2.99 12.96 2 14.5 2C16.5 2 18 3.5 18 5.5C18 8.39 14.86 11.24 10.1 15.55Z" fill="#2A2A2A"/>
+                </svg>
+                <svg class="shop_svg" width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 5H14C14 2.24 11.76 0 9 0C6.24 0 4 2.24 4 5H2C0.9 5 0 5.9 0 7V19C0 20.1 0.9 21 2 21H16C17.1 21 18 20.1 18 19V7C18 5.9 17.1 5 16 5ZM9 2C10.66 2 12 3.34 12 5H6C6 3.34 7.34 2 9 2ZM16 19H2V7H16V19ZM9 11C7.34 11 6 9.66 6 8H4C4 10.76 6.24 13 9 13C11.76 13 14 10.76 14 8H12C12 9.66 10.66 11 9 11Z" fill="#2A2A2A"/>
+                </svg>
+                <div class="block__more">
+                    <p class="more__text">item:</p>
+                    <p class="more__price">$150.00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__blocks">
+            <div class="container__block_all">
+                <svg class="three__lines_svg" width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 12H18V10H0V12ZM0 7H18V5H0V7ZM0 0V2H18V0H0Z" fill="white"/>
+                </svg>
+                <p class="block__all_text">All Department</p>
+                <svg class="drop__line_svg" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.59 0.589966L6 5.16997L1.41 0.589966L0 1.99997L6 7.99997L12 1.99997L10.59 0.589966Z" fill="#fff"/>
+                </svg>
+            </div>
+
+            <form action="" class="container__block_form">
+                <div class="block__form_all_cat">
+                    <p class="form__all_cat_text">All Categories</p>
+                    <svg class="drop__line_svg" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.59 0.589966L6 5.16997L1.41 0.589966L0 1.99997L6 7.99997L12 1.99997L10.59 0.589966Z" fill="#000"/>
+                    </svg>
+                </div>
+                <div class="line__form"></div>
+                <input type="text" class="block__form_input" placeholder="What do you need?">
+                <button class="block__form_button">SEARCH</button>
+            </form>
+
+            <div class="container__block_contact">
+                <div class="block__contact_img">
+                    <svg class="phone_svg" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 9H14C14 6.24 11.76 4 9 4V6C10.66 6 12 7.34 12 9ZM16 9H18C18 4.03 13.97 0 9 0V2C12.87 2 16 5.13 16 9ZM17 12.5C15.75 12.5 14.55 12.3 13.43 11.93C13.33 11.9 13.22 11.88 13.12 11.88C12.86 11.88 12.61 11.98 12.41 12.17L10.21 14.37C7.38 12.93 5.06 10.62 3.62 7.78L5.82 5.57C6.1 5.31 6.18 4.92 6.07 4.57C5.7 3.45 5.5 2.25 5.5 1C5.5 0.45 5.05 0 4.5 0H1C0.45 0 0 0.45 0 1C0 10.39 7.61 18 17 18C17.55 18 18 17.55 18 17V13.5C18 12.95 17.55 12.5 17 12.5ZM2.03 2H3.53C3.6 2.88 3.75 3.75 3.98 4.58L2.78 5.79C2.38 4.58 2.12 3.32 2.03 2ZM16 15.97C14.68 15.88 13.4 15.62 12.2 15.21L13.4 14.01C14.25 14.25 15.12 14.4 16 14.46V15.97Z" fill="#2A2A2A"/>
+                    </svg>
+                </div>
+                <div class="block__contact_infos">
+                    <p class="contact__number">+65 11.188.888</p>
+                    <p class="contact__time">support 24/7 time</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container__blocks">
+            <div class="container__block_cat_links">
+                <a href="" class="block__category_text">Fresh Meat</a>
+                <a href="" class="block__category_text">Vegetables</a>
+                <a href="" class="block__category_text">Fruit & Nut Gifts</a>
+                <a href="" class="block__category_text">Fresh Berries</a>
+                <a href="" class="block__category_text">Ocean Foods</a>
+                <a href="" class="block__category_text">Butter & Eggs</a>
+                <a href="" class="block__category_text">Fastfood</a>
+                <a href="" class="block__category_text">Fresh Onion</a>
+                <a href="" class="block__category_text">Papayaya & Crisps</a>
+                <a href="" class="block__category_text">Oatmeal</a>
+                <a href="" class="block__category_text">Fresh Bananas</a>
+            </div>
+            <div class="container__block_slider">
+                <div class="block__slider_info">
+                    <p class="text__fruit_fresh">FRUIT FRESH</p>
+                    <p class="text__veget_organic">Vegetable 100% Organic</p>
+                    <p class="text__available">Free Pickup and Delivery Available</p>
+                    <button class="show__button">SHOP NOW</button>
+                </div>
+                <img src="images/main_vegetables.png" alt="" class="slider__image">
+            </div>
+        </div>
+
+
+        <div class="container__blocks">
+            <div class="block__fruit_types">
+                <img src="images/fresh_fruit.png" alt="" class="fruit__type_img">
+                <p class="fruit_type_text">FRESH FRUIT</p>
+            </div>
+            <div class="block__fruit_types">
+                <img src="images/dried_fruit.png" alt="" class="fruit__type_img">
+                <p class="fruit_type_text">DRIED FRUIT</p>
+            </div>
+            <div class="block__fruit_types">
+                <img src="images/vegetables.png" alt="" class="fruit__type_img">
+                <p class="fruit_type_text">VEGETABLES</p>
+            </div>
+            <div class="block__fruit_types">
+                <img src="images/drink_fruits.png" alt="" class="fruit__type_img">
+                <p class="fruit_type_text">DRINK FRUITS</p>
+            </div>
+        </div>
+
+        
+        <div class="container__blocks">
+            <div class="block__juices">
+                <img src="images/slide1.png" alt="" class="slide__image">
+                <p class="juice__type_name">summer fruits</p>
+                <p class="juice__natural_text">100% All Natural Fruit Juice</p>
+                <button class="juice__button">SHOP NOW</button>
+            </div>
+            <div class="block__juices">
+                <img src="images/slide2.png" alt="" class="slide__image">
+                <p class="juice__type_name">Dried & Drink Fruits</p>
+                <p class="juice__natural_text">100% All Natural Fruit Juice</p>
+                <button class="juice__button">SHOP NOW</button>
+            </div>
+        </div>
+
+
+        <div class="container__blocks">
+            <div class="container__block_filter">
+                <div class="block__filter_top">
+                    <p class="block__filter_top-title">Latest Product</p>
+                    <div class="block__filter_arrows">
+                        <div class="block__filter_arrow">
+                            <svg class='drop__arrow_svg first_arrow' width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.59 0.589966L6 5.16997L1.41 0.589966L0 1.99997L6 7.99997L12 1.99997L10.59 0.589966Z" fill="#000"/>
+                            </svg>
+
+                        </div>
+                        <div class="block__filter_arrow">
+                            <svg class='drop__arrow_svg second_arrow' width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.59 0.589966L6 5.16997L1.41 0.589966L0 1.99997L6 7.99997L12 1.99997L10.59 0.589966Z" fill="#000"/>
+                            </svg>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="block__filter_fruits">
+                    <div class="block__filter_fruit">
+                        <img src="images/cauliflower.png" alt="" class="block__filter_fruit-img">
+                        <div class="block__filter_fruit-info">
+                            <p class="block__filter_fruit-name">Cauliflower</p>
+                            <p class="block__filter_fruit-price">$30.00</p>
+                        </div>
+                    </div>
+                    <div class="block__filter_fruit">
+                        <img src="images/quince.png" alt="" class="block__filter_fruit-img">
+                        <div class="block__filter_fruit-info">
+                            <p class="block__filter_fruit-name">Organic Quince</p>
+                            <p class="block__filter_fruit-price">$30.00</p>
+                        </div>
+                    </div>
+                    <div class="block__filter_fruit">
+                        <img src="images/tomato.png" alt="" class="block__filter_fruit-img">
+                        <div class="block__filter_fruit-info">
+                            <p class="block__filter_fruit-name">Tomato Hybrid</p>
+                            <p class="block__filter_fruit-price">$30.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__block_filter">
+                <div class="block__filter_top">
+                    <p class="block__filter_top-title">Top rated Products</p>
+                    <div class="block__filter_arrows">
+                        <div class="block__filter_arrow">
+                            <svg class='drop__arrow_svg first_arrow' width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.59 0.589966L6 5.16997L1.41 0.589966L0 1.99997L6 7.99997L12 1.99997L10.59 0.589966Z" fill="#000"/>
+                            </svg>
+
+                        </div>
+                        <div class="block__filter_arrow">
+                            <svg class='drop__arrow_svg second_arrow' width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.59 0.589966L6 5.16997L1.41 0.589966L0 1.99997L6 7.99997L12 1.99997L10.59 0.589966Z" fill="#000"/>
+                            </svg>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="block__filter_fruits">
+                    <div class="block__filter_fruit">
+                        <img src="images/blueberry.png" alt="" class="block__filter_fruit-img">
+                        <div class="block__filter_fruit-info">
+                            <p class="block__filter_fruit-name">Blueberry</p>
+                            <p class="block__filter_fruit-price">$30.00</p>
+                        </div>
+                    </div>
+                    <div class="block__filter_fruit">
+                        <img src="images/capsicum.png" alt="" class="block__filter_fruit-img">
+                        <div class="block__filter_fruit-info">
+                            <p class="block__filter_fruit-name">Capsicum-Green</p>
+                            <p class="block__filter_fruit-price">$30.00</p>
+                        </div>
+                    </div>
+                    <div class="block__filter_fruit">
+                        <img src="images/tomato.png" alt="" class="block__filter_fruit-img">
+                        <div class="block__filter_fruit-info">
+                            <p class="block__filter_fruit-name">Tomato Hybrid</p>
+                            <p class="block__filter_fruit-price">$30.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__block_filter">
+                <div class="block__filter_top">
+                    <p class="block__filter_top-title">Review Products</p>
+                    <div class="block__filter_arrows">
+                        <div class="block__filter_arrow">
+                            <svg class='drop__arrow_svg first_arrow' width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.59 0.589966L6 5.16997L1.41 0.589966L0 1.99997L6 7.99997L12 1.99997L10.59 0.589966Z" fill="#000"/>
+                            </svg>
+
+                        </div>
+                        <div class="block__filter_arrow">
+                            <svg class='drop__arrow_svg second_arrow' width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.59 0.589966L6 5.16997L1.41 0.589966L0 1.99997L6 7.99997L12 1.99997L10.59 0.589966Z" fill="#000"/>
+                            </svg>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="block__filter_fruits">
+                    <div class="block__filter_fruit">
+                        <img src="images/hazelnuts.png" alt="" class="block__filter_fruit-img">
+                        <div class="block__filter_fruit-info">
+                            <p class="block__filter_fruit-name">Hazelnuts Filbert Nut</p>
+                            <p class="block__filter_fruit-price">$30.00</p>
+                        </div>
+                    </div>
+                    <div class="block__filter_fruit">
+                        <img src="images/apple.png" alt="" class="block__filter_fruit-img">
+                        <div class="block__filter_fruit-info">
+                            <p class="block__filter_fruit-name">Green Apple</p>
+                            <p class="block__filter_fruit-price">$30.00</p>
+                        </div>
+                    </div>
+                    <div class="block__filter_fruit">
+                        <img src="images/raspberry.png" alt="" class="block__filter_fruit-img">
+                        <div class="block__filter_fruit-info">
+                            <p class="block__filter_fruit-name">Fresh Raspberry</p>
+                            <p class="block__filter_fruit-price">$30.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container__blocks">
+            <h2 class="block__sorted_text">Featured Product</h2>
+            <div class="block__line"></div>
+            <div class="block__sort_types">
+                <a href="" class="block__sort_type_name block__sort_type_name_active">All</a>
+                <a href="" class="block__sort_type_name">Oranges</a>
+                <a href="" class="block__sort_type_name">Fresh Meat</a>
+                <a href="" class="block__sort_type_name">Vegetables</a>
+                <a href="" class="block__sort_type_name">Fastfood</a>
+            </div>
+            <div class="block__sort_fruits">
+                <div class="block__sort_fruit">
+                    <img src="images/banana.png" alt="" class="sort__fruit_img">
+                    <div class="sort__fruit_info">
+                        <p class="sort__fruit_name">Bunch of bananas</p>
+                        <p class="sort__fruit_price">$30.00</p>
+                    </div>
+                </div>
+                <div class="block__sort_fruit">
+                    <img src="images/apricot.png" alt="" class="sort__fruit_img">
+                    <div class="sort__fruit_info">
+                        <p class="sort__fruit_name">Fresh organic apricot</p>
+                        <p class="sort__fruit_price"> $30.00</p>
+                    </div>
+                </div>
+                <div class="block__sort_fruit">
+                    <img src="images/avokado.png" alt="" class="sort__fruit_img">
+                    <div class="sort__fruit_info">
+                        <p class="sort__fruit_name">Avokado fruit</p>
+                        <p class="sort__fruit_price">$30.00</p>
+                    </div>
+                </div>
+                <div class="block__sort_fruit">
+                    <img src="images/red_apple.png" alt="" class="sort__fruit_img">
+                    <div class="sort__fruit_info">
+                        <p class="sort__fruit_name">Red apple</p>
+                        <p class="sort__fruit_price">$30.00</p>
+                    </div>
+                </div>
+                <div class="block__sort_fruit">
+                    <img src="images/figs.png" alt="" class="sort__fruit_img">
+                    <div class="sort__fruit_info">
+                        <p class="sort__fruit_name">Two fresh figs</p>
+                        <p class="sort__fruit_price">$30.00</p>
+                    </div>
+                </div>
+                <div class="block__sort_fruit">
+                    <img src="images/cucumber.png" alt="" class="sort__fruit_img">
+                    <div class="sort__fruit_info">
+                        <p class="sort__fruit_name">Cucumber</p>
+                        <p class="sort__fruit_price">$30.00</p>
+                    </div>
+                </div>
+                <div class="block__sort_fruit">
+                    <img src="images/beef.png" alt="" class="sort__fruit_img">
+                    <div class="sort__fruit_info">
+                        <p class="sort__fruit_name">Beef steak</p>
+                        <p class="sort__fruit_price">$30.00</p>
+                    </div>
+                </div>
+                <div class="block__sort_fruit">
+                    <img src="images/brocolli.png" alt="" class="sort__fruit_img">
+                    <div class="sort__fruit_info">
+                        <p class="sort__fruit_name">Raw Broccoli</p>
+                        <p class="sort__fruit_price">$30.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container__blocks">
+            <h2 class="block__sorted_text">From The Blog</h2>
+            <div class="block__line"></div>
+            <div class="block__blogs">
+                <div class="block__blog">
+                    <img src="images/salad.png" alt="" class="block__blog_img">
+                    <div class="block__blog_infos">
+                        <svg class="date_svg" width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 2H17V0H15V2H5V0H3V2H2C0.9 2 0 2.9 0 4V20C0 21.1 0.9 22 2 22H18C19.1 22 20 21.1 20 20V4C20 2.9 19.1 2 18 2ZM18 20H2V9H18V20ZM18 7H2V4H18V7Z" fill="#757575"/>
+                        </svg>
+                        <p class="block__blog_info">May 4,2021</p>
+                        <svg class="comment_svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 0H2C0.9 0 0 0.9 0 2V20L4 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM18 14H4L2 16V2H18V14ZM5 7H7V9H5V7ZM9 7H11V9H9V7ZM13 7H15V9H13V7Z" fill="#757575"/>
+                        </svg>
+                        <p class="block__blog_info">54</p>
+                    </div>
+                    <p class="block__blog_main_text">Busting Salad Myths: Eat a Well-Built Salad (If You Want To)</p>
+                    <p class="block__blog_main_info">This is usually said when someone is trying to lose weight or be “super healthy.” First, to lose weight, it is widely understood that we must burn more calories than we eat. Thus Read More</p>
+                </div>
+                <div class="block__blog">
+                    <img src="images/vitaminC.png" alt="" class="block__blog_img">
+                    <div class="block__blog_infos">
+                        <svg class="date_svg" width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 2H17V0H15V2H5V0H3V2H2C0.9 2 0 2.9 0 4V20C0 21.1 0.9 22 2 22H18C19.1 22 20 21.1 20 20V4C20 2.9 19.1 2 18 2ZM18 20H2V9H18V20ZM18 7H2V4H18V7Z" fill="#757575"/>
+                        </svg>
+                        <p class="block__blog_info">May 4,2021</p>
+                        <svg class="comment_svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 0H2C0.9 0 0 0.9 0 2V20L4 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM18 14H4L2 16V2H18V14ZM5 7H7V9H5V7ZM9 7H11V9H9V7ZM13 7H15V9H13V7Z" fill="#757575"/>
+                        </svg>
+                        <p class="block__blog_info">25</p>
+                    </div>
+                    <p class="block__blog_main_text">Vitamin C: How Much and Which Sources Are Best for Boosting Immunity?</p>
+                    <p class="block__blog_main_info">During cold and flu season, we try to do all we can to prevent illness or speed up how fast we recover from illness. One such strategy many employ is the use of Vitamin C for a natural remedy. Read More</p>
+                </div>
+                <div class="block__blog">
+                    <img src="images/pumnUp.png" alt="" class="block__blog_img">
+                    <div class="block__blog_infos">
+                        <svg class="date_svg" width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 2H17V0H15V2H5V0H3V2H2C0.9 2 0 2.9 0 4V20C0 21.1 0.9 22 2 22H18C19.1 22 20 21.1 20 20V4C20 2.9 19.1 2 18 2ZM18 20H2V9H18V20ZM18 7H2V4H18V7Z" fill="#757575"/>
+                        </svg>
+                        <p class="block__blog_info">May 4,2021</p>
+                        <svg class="comment_svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 0H2C0.9 0 0 0.9 0 2V20L4 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM18 14H4L2 16V2H18V14ZM5 7H7V9H5V7ZM9 7H11V9H9V7ZM13 7H15V9H13V7Z" fill="#757575"/>
+                        </svg>
+                        <p class="block__blog_info">58</p>
+                    </div>
+                    <p class="block__blog_main_text">Pump Up the Produce Power in Winter Meals</p>
+                    <p class="block__blog_main_info">We’ve all been here before: When it seems the long, gray winter will never end and you make one more pot of hearty vegetable soup or another casserole; Read More</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+</body>
+
+<footer class="footer">
+    <div class="footer__container_blocks">
+        <div class="footer__container">
+            <div class="footer__block">
+                <img src="images/logo2.png" alt="" class="footer__block_logo_img">
+                <p class="footer__block_info">Address: 60-49 Road 11378 New York</p>
+                <p class="footer__block_info">Phone: +65 11.188.888</p>
+                <p class="footer__block_info">Email: hello@colorlib.com</p>
+            </div>
+            <div class="footer__block">
+                <a href="#" class="footer__block_link main__text">Useful link</a>
+                <a href="" class="footer__block_link">About Us</a>
+                <a href="" class="footer__block_link">About Our Shop</a>
+                <a href="" class="footer__block_link">Secure Shopping</a>
+                <a href="" class="footer__block_link">Delivery infomation</a>
+                <a href="" class="footer__block_link">Privacy Policy</a>
+                <a href="" class="footer__block_link">Our Sitemap</a>
+            </div>
+            <div class="footer__block">
+                <a href="" class="footer__block_link">Who We Are</a>
+                <a href="" class="footer__block_link">Our Services</a>
+                <a href="" class="footer__block_link">Projects</a>
+                <a href="" class="footer__block_link">Contact</a>
+                <a href="" class="footer__block_link">Innovation</a>
+                <a href="" class="footer__block_link">Testimonials</a>
+            </div>
+            <div class="footer__block_sign">
+                <p class="footer__block_sign_text main__text">Sign Up for Our Newsletter</p>
+                <p class="footer__block_sign_text">Get e-mail updates about our latest Shop and special offers.</p>
+                <form action="" class="footer__block_sign-form">
+                    <input type="text" class="sign__form_input" placeholder="Enter Email Address">
+                    <button class="sign__form_button">SUBSCRIBE</button>
+                </form>
+                <div class="footer__logos">
+                    <svg class="facebook_svg" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.3633 0H2.63672C1.18295 0 0 1.18295 0 2.63672V15.3633C0 16.817 1.18295 18 2.63672 18H7.94531V11.6367H5.83594V8.47266H7.94531V6.32812C7.94531 4.58336 9.36461 3.16406 11.1094 3.16406H14.3086V6.32812H11.1094V8.47266H14.3086L13.7812 11.6367H11.1094V18H15.3633C16.817 18 18 16.817 18 15.3633V2.63672C18 1.18295 16.817 0 15.3633 0Z" fill="white"/>
+                    </svg>
+                    <svg class="whatsapp_svg" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 0C4.0567 0 0 4.0567 0 9C0 10.6315 0.439865 12.2197 1.274 13.6092L0 18L4.39082 16.726C5.78032 17.5601 7.36853 18 9 18C13.9433 18 18 13.9433 18 9C18 4.0567 13.9433 0 9 0ZM14.6269 12.8028L14.2082 13.2215C13.6158 13.8139 12.2533 13.767 11.3779 13.5979C8.46689 13.0357 5.07307 9.74611 4.41856 6.89735C4.09447 5.48616 4.27341 4.25926 4.74142 3.79111L5.16014 3.37239C5.39127 3.1414 5.76672 3.14168 5.99757 3.37239L7.67271 5.04767C7.7845 5.15945 7.84575 5.30763 7.84575 5.46625C7.84575 5.62486 7.7845 5.77318 7.67271 5.88455L7.25414 6.30368C6.79271 6.7662 6.79271 7.51753 7.25414 7.97896L10.0204 10.7088C10.4832 11.1716 11.2321 11.1721 11.6956 10.7088L12.1143 10.2902C12.3305 10.0728 12.7343 10.0721 12.9522 10.2902L14.6269 11.9649C14.8543 12.1914 14.863 12.5666 14.6269 12.8028Z" fill="white"/>
+                    </svg>
+                    <svg class="in_svg" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.3633 0H2.63672C1.18295 0 0 1.18295 0 2.63672V15.3633C0 16.817 1.18295 18 2.63672 18H15.3633C16.817 18 18 16.817 18 15.3633V2.63672C18 1.18295 16.817 0 15.3633 0ZM6.36328 14.2734H4.25391V6.89062H6.36328V14.2734ZM6.36328 5.83594H4.25391V3.72656H6.36328V5.83594ZM13.7461 14.2734H11.6367V10.0547C11.6367 9.47324 11.1635 9 10.582 9C10.0006 9 9.52734 9.47324 9.52734 10.0547V14.2734H7.41797V6.89062H9.52734V7.28819C10.08 7.11639 10.4389 6.89062 11.1094 6.89062C12.5399 6.89214 13.7461 8.17548 13.7461 9.69214V14.2734Z" fill="white"/>
+                    </svg>
+                    <svg class="twitter_svg" width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.71526 15.3844C5.93687 15.3844 5.1357 15.3214 4.32971 15.195C2.91014 14.9723 1.47313 14.2298 1.0665 14.0074L0 13.4243L1.15466 13.0446C2.41686 12.6296 3.18466 12.3721 4.13512 11.9689C3.18343 11.508 2.44995 10.679 2.09688 9.60726L1.82826 8.7918L2.04854 8.82545C1.83966 8.61492 1.67473 8.40124 1.54688 8.20692C1.09218 7.51629 0.851441 6.6724 0.902664 5.94923L0.953201 5.23745L1.37933 5.40252C1.19957 5.06304 1.06966 4.7005 0.993302 4.32051C0.807221 3.39381 0.962952 2.4093 1.43193 1.54838L1.80313 0.866954L2.29958 1.46324C3.86966 3.34931 5.85832 4.46813 8.2186 4.79566C8.12219 4.13113 8.19443 3.4898 8.43352 2.91494C8.71188 2.2456 9.20709 1.67802 9.86517 1.27345C10.596 0.824244 11.4824 0.606578 12.3609 0.660548C13.2929 0.717814 14.1391 1.06704 14.8112 1.67115C15.1394 1.58587 15.3813 1.49482 15.7081 1.37178C15.9048 1.29775 16.1278 1.21371 16.4068 1.11758L17.4352 0.76327L16.7646 2.67846C16.8088 2.67475 16.8544 2.6716 16.9021 2.66954L18.0001 2.61982L17.3511 3.50683C17.3139 3.55764 17.3044 3.57206 17.2912 3.59197C17.2389 3.6708 17.1738 3.76885 16.283 4.9584C16.06 5.25627 15.9486 5.64422 15.9693 6.05099C16.0483 7.59677 15.8586 8.99533 15.4053 10.2077C14.9766 11.3546 14.3122 12.3387 13.4308 13.1326C12.3401 14.1148 10.9494 14.7873 9.29704 15.1312C8.48653 15.2998 7.61614 15.3844 6.71526 15.3844Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__container">
+            <p class="footer__container_info_text">Copyright ©2021 All rights reserved | This template is made with 💚 by LOGO</p>
+            <div class="footer__container_bank_cards">
+                <img src="images/Visa-light.png" alt="" class="bank__card_image">
+                <img src="images/MasterCard-light.png" alt="" class="bank__card_image">
+                <img src="images/Maestro-light.png" alt="" class="bank__card_image">
+                <img src="images/Cirrus-light.png" alt="" class="bank__card_image">
+                <img src="images/AmericanExpress-light.png" alt="" class="bank__card_image">
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
